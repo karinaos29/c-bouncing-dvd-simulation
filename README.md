@@ -33,7 +33,7 @@ The logo is stored as a UTF-8 multi-line string array:
 
 ## Technologies Used
 
-* **C** (Standard C99/C11)
+* **C**
 * **ANSI Escape Codes** for color and cursor positioning
 * **Custom Library:** `terminal_draw.h`
 
@@ -41,10 +41,9 @@ The logo is stored as a UTF-8 multi-line string array:
 
 ## Project Structure
 
-.
 ├── bouncing_dvd.c        
- ├── terminal_draw.h      
- └── README.md    
+├── terminal_draw.h      
+└── README.md    
 
 ## How to Run
 
