@@ -2,7 +2,7 @@
 
 A terminal-based animation of the iconic DVD logo bouncing around the screen, implemented in **C** using a custom terminal drawing library. 
 
-The logo moves diagonally, bounces off the screen borders, and changes color on each collision, recreating the classic DVD screensaver behavior—now directly in your terminal.
+The logo moves diagonally, bounces off the screen borders, and changes color on each collision, recreating the classic DVD screensaver behavior directly in your terminal.
 
 ---
 
