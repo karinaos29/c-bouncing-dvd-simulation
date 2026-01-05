@@ -22,11 +22,6 @@ const char *DVD_LOGO[] = {
 "⠉⠛⠻⠿⠿⠿⠷⣼⣿⣿⣼⣿⣧⣭⣼⣿⣧⣭⣿⣿⣬⡭⠾⠿⠿⠿⠛⠉⠀"
 };
 
-void draw_vline(int x, int y, int lengthLine, char c, Color color){
-    for (int i = 0; i < lengthLine; i++){
-        draw_char(x, y+i, c, color);
-    }
-};
 Color getNextColor(Color color){
     return color = (color - BLACK + 1) % NUM_COLORS + BLACK;
 };
